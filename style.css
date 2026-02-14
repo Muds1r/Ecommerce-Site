@@ -60,6 +60,10 @@ body {
     padding: 20px 80px;
     background-color: #E3E6F3;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 #navbar {
@@ -84,7 +88,7 @@ body {
 
 #navbar li a:hover,
 #navbar li a.active {
-    color: rgb(37, 189, 138);
+    color: teal;
 }
 
 #navbar li a.active::after,
@@ -92,8 +96,42 @@ body {
     content: "";
     width: 30%;
     height: 2px;
-    background-color: rgb(37, 189, 138);
+    background-color: teal;
     position: absolute;
     left: 20px;
     bottom: -4px;
+}
+
+#hero {
+    background-image: url("img/hero4.png");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0%;
+    padding: 0 80px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#hero h4 {
+    padding-bottom: 15px;
+}
+
+#hero h1 {
+    color: teal;
+}
+
+#hero button {
+    background-image: url("img/button.png");
+    background-color: transparent;
+    color: teal;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat:  no-repeat;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
 }
