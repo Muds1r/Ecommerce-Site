@@ -346,7 +346,7 @@ body {
 }
 
 #sm-banner .banner-box2 {
-    background-image: url("img/banner/b18.jpg");
+    background-image: url("img/banner/b10.jpg");
 }
 
 #sm-banner h4 {
@@ -371,4 +371,98 @@ body {
 #sm-banner .banner-box:hover button {
     background-color: teal;
     border: 1px solid teal;
+}
+
+#banner3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px 80px;
+}
+
+#banner3 .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("img/banner/b7.jpg");
+    min-width: 30%;
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#banner3 .banner-box2 {
+    background-image: url("img/banner/b4.jpg");
+}
+
+#banner3 .banner-box3 {
+    background-image: url("img/banner/b18.jpg");
+}
+
+#banner3 h2 {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+#banner3 h3 {
+    color: #bb2a2a;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url("img/banner/b14.png");
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+}
+
+#newsletter h4 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+#newsletter p {
+    color: #818ea0;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#newsletter p span {
+    color: #f8b02b;
+}
+
+#newsletter .form {
+    display: flex;
+    width: 25%;
+}
+
+#newsletter input {
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button {
+    background-color: #06a857;
+    color: #fffefe;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
