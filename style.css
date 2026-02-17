@@ -642,6 +642,9 @@ footer .copyright {
     text-align: center;
 }
 
+#page-header p span{
+    color: #c40404;
+}
 @media (max-width:799px) {
     #navbar {
         display: flex;
@@ -820,4 +823,5 @@ footer .copyright {
     #prodetails .single-pro-details {
         width: 100%;
     }
+
 }
